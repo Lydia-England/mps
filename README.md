@@ -44,3 +44,22 @@ python mps.py [options...]
 
 ---
 
+## Examples
+
+### Input a 4x4 T matrix; save to default file name.
+```bash
+python mps.py -n 4 -o
+```
+
+### Input a 2x2 T matrix; do NOT normalize; save to file called 'matrixFile.csv'.
+```bash
+python mps.py -n 2 --normalize off -o --write_matrix matrixFile.csv 
+```
+
+### Input a 5x5 T matrix; automatically normalize; output up to 3 decimal places; do not save.
+```bash
+python mps.py -n 2 --normalize all -d 3 
+```
+
+
+
