@@ -64,18 +64,18 @@ python mps.py -n 2 --normalize all -d 3
 ---
 
 ## Cheat Sheet for Terminal
-| `pwd`              | print working directory | 
-| `cd`               | change directory | 
-| `cd ..`            | change directory up one level | 
-| `ls`               | list files in current directory | 
-| `ls -l`            | list files in current directory (long format; more details) | 
-| `cat [file]`       | display contents of [file] on terminal screen | 
-| `open [file]`      | open [file] with default software |
-| `mkdir [dirname]`  | make new directory called [dirname] |
-| `touch [filename]` | make new file called [filename] |
-| `rm [filename]`    | remove file called [filename] |
-| `vim [file]`       | open [file] in vim editor |
-| `nano [file]`      | open [file] in nano editor |
+- `pwd`: print working directory 
+- `cd`: change directory 
+- `cd ..`: change directory up one level 
+- `ls`: list files in current directory 
+- `ls -l`: list files in current directory (long format; more details) 
+- `cat [file]`: display contents of [file] on terminal screen 
+- `open [file]`: open [file] with default software
+- `mkdir [dirname]`: make new directory called [dirname]
+- `touch [filename]`: make new file called [filename]
+- `rm [filename]`: remove file called [filename]
+- `vim [file]`: open [file] in vim editor
+- `nano [file]`: open [file] in nano editor
  
 
 
