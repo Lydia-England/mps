@@ -54,7 +54,6 @@ parser.add_argument('--write_matrix', default='E-matrix-'+now+'.csv', type=str,
                     help='Filename to write E matrix output to.')
 args = parser.parse_args()
 
-print(args)
 
 ############################
 ###  DEFINITION SECTION  ###
